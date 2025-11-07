@@ -1,0 +1,124 @@
+# ===============================
+# 🧠 GENERAL & SYSTEM FILES
+# ===============================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.bak
+*.old
+*.out
+
+# ===============================
+# 🐍 PYTHON FILES & ENVIRONMENTS
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyc
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# ===============================
+# 📦 DEPENDENCIES & BUILD FILES
+# ===============================
+# Python packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Model checkpoints and large binaries
+models/
+checkpoints/
+runs/
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.hdf5
+*.tflite
+*.joblib
+*.pkl
+*.pickle
+
+# Training artifacts (TensorBoard, wandb, etc.)
+logs/
+wandb/
+tensorboard/
+mlruns/
+
+
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+
+# ===============================
+# 🧱 FRAMEWORK SPECIFIC
+# ===============================
+
+# Streamlit cache
+.streamlit/
+
+# Flask
+instance/
+*.db
+
+# Django
+*.sqlite3
+media/
+staticfiles/
+
+# React/Vue
+*.lock
+package-lock.json
+yarn.lock
+
+# ===============================
+# 📸 MISC
+# ===============================
+# IDE & editor folders
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary project files
+tmp/
+temp/
+cache/
+__temp__/
+.tox/
+.mypy_cache/
+pytest_cache/
+.coverage
+.pytest_cache/
+.prof
+
+
